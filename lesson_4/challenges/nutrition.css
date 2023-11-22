@@ -1,0 +1,175 @@
+body {
+  font-family: helvetica;
+}
+
+article {
+  box-sizing: border-box;
+  width: 680px;
+  border: 2px solid black;
+  padding: 14px 15px;
+  margin: 8px 8px;
+}
+
+header {
+  padding-bottom: 7px;
+  border-bottom: 15px solid black;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding-bottom: 6px;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 3px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-weight: bold;
+  border-top: 30px solid black;
+  border-bottom: 1px solid black;
+}
+
+p {
+  padding-bottom: 4px;
+  font-size: 1.75rem;
+}
+
+em {
+  font-style: italic;
+}
+
+header dl {
+  font-size: 1.75rem;
+  padding-top: 7px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+dt, dd {
+  display: inline;
+}
+
+dl + dl {
+  text-align: right;
+}
+
+dl:first-of-type dt {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  margin-top: 13px;
+  font-size: 1.75rem;
+}
+
+thead th {
+  font-weight: bold;
+  text-align: right;
+  padding-bottom: 3px;
+}
+
+tbody {
+  border-bottom: 20px solid black;
+}
+
+tbody tr {
+  border-top: 1px solid black;
+}
+
+td {
+  padding: 4px 0;
+}
+
+td:last-of-type {
+  text-align: right;
+}
+
+tbody td:last-of-type {
+  font-weight: bold;
+}
+
+
+td:last-of-type dl {
+  text-align: left;
+}
+
+td:last-of-type dd {
+  font-weight: 500;
+}
+
+.indent {
+  width: 28px;
+  border-top-style: hidden;
+}
+
+.indent + td dt {
+  font-weight: 500;
+}
+
+tfoot tr {
+  border-bottom: 1px solid black;
+}
+
+footer {
+  padding-top: 15px;
+}
+
+footer p {
+  font-size: 1.57rem;
+  padding-left: 20px;
+  text-indent: -20px;
+  line-height: 1.15;
+}
+
+footer table {
+  font-size: 1.4rem;
+  margin-top: 8px;
+}
+footer thead tr {
+  border-bottom: 1px solid black;
+}
+
+footer thead td{
+  padding-bottom: 2px;
+}
+
+footer thead td:first-of-type { 
+  width: 170px;
+}
+
+footer thead td:nth-of-type(2) {
+  width: 138px;
+}
+
+footer tbody {
+  border: 0;
+}
+
+footer tbody tr {
+  border: 0;
+}
+
+footer tbody td {
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+footer td:last-of-type {
+  font-weight: 500;
+  text-align: left;
+}
+
+footer td:nth-child(2) {
+  padding-left: 0px;
+
+}
+
+footer .indent{
+  width: 34px;
+
+}
+

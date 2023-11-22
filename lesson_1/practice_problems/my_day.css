@@ -1,0 +1,31 @@
+body {
+  margin-left: 25px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  font-weight: bold;
+}
+
+#morning-text {
+  font-weight: bold;
+}
+
+#afternoon-header {
+  color: blue;
+}
+
+#afternoon-text {
+  font-style: italic;
+}
+
+#evening-header {
+  color: purple;
+}
